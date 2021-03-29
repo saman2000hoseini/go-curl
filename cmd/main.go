@@ -4,9 +4,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/spf13/cobra"
-	"go-curl/model"
-	"go-curl/pkg"
 	"io"
 	"io/ioutil"
 	"log"
@@ -17,6 +14,11 @@ import (
 	"path"
 	"strings"
 	"time"
+
+	"github.com/saman2000hoseini/go-curl/model"
+	"github.com/saman2000hoseini/go-curl/pkg"
+
+	"github.com/spf13/cobra"
 )
 
 const defaultMethod = "GET"

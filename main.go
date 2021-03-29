@@ -1,8 +1,9 @@
 package main
 
 import (
-	"go-curl/cmd"
 	"os"
+
+	"github.com/saman2000hoseini/go-curl/cmd"
 )
 
 const (

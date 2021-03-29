@@ -1,4 +1,4 @@
-module github.com/saman2000hoseini/go-curl.git
+module github.com/saman2000hoseini/go-curl
 
 go 1.16
 
