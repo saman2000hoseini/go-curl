@@ -126,8 +126,11 @@ func main(request model.Request, arg string) {
 	}
 	bodyString := string(bodyBytes)
 
+	fmt.Println(res.Request.URL)
+	fmt.Println(res.Request.URL.Scheme)
 	fmt.Println(res.Status)
 	fmt.Println(res.Request.Method)
+	fmt.Println(res.Proto)
 
 	for key, values := range res.Header {
 		fmt.Printf("%s:\n", key)
